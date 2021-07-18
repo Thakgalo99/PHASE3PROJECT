@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon index.js"
   },
-  "author": "Clance Morumudi",
+  "author": "Joy Phaahla",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",

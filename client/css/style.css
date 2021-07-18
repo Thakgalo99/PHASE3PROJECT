@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 :root {
-	--dark-color-a: red;
-	--dark-color-b: orangered;
-	--light-color: maroon;
-	--success-color: #5cb85c;
-	--error-color: #d9534f;
+	--dark-color-a: blue;
+	--dark-color-b: pink;
+	--light-color: yellow;
+	--success-color: #b85c82;
+	--error-color: #4fd971;
 }
 
 
@@ -38,22 +38,22 @@ a {
 	background: var(--light-color);
 	color: var(--dark-color-a);
 	border: 0;
-	font-size: 17px;
-	color: #fff;
+	font-size: 15px;
+	color: rgb(58, 28, 87);
 }
 
 /* Chat Page */
 
 .chat-container {
 	max-width: 1100px;
-	background: #fff;
+	background: rgb(255, 255, 255);
 	margin: 30px auto;
 	overflow: hidden;
 }
 
 .chat-header {
 	background: var(--dark-color-a);
-	color: #fff;
+	color: rgb(255, 255, 255);
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 	padding: 15px;
@@ -71,16 +71,16 @@ a {
 
 .chat-sidebar {
 	background: var(--dark-color-b);
-	color: #fff;
+	color: rgb(255, 255, 255);
 	padding: 20px 20px 60px;
 	overflow-y: scroll;
 }
 
 .chat-sidebar h2 {
-	font-size: 20px;
+	font-size: 22px;
 	background: rgba(0, 0, 0, 0.1);
 	padding: 10px;
-	margin-bottom: 20px;
+	margin-bottom: 22px;
 }
 
 .chat-sidebar h3 {
@@ -103,9 +103,9 @@ a {
 	/* background-color: var(--light-color); */
 	border-radius: 5px;
 	overflow-wrap: break-word;
-	background-color: #1111;
+	background-color: rgba(17, 17, 17, 0.067);
 	padding: 10px;
-	color: #111;
+	color: rgb(122, 14, 14);
 	width: fit-content;
 	border-radius: 10px
 }
@@ -119,7 +119,7 @@ a {
 }
 
 .chat-messages .message .meta span {
-	color: #777;
+	color: rgb(194, 14, 14);
 }
 
 .chat-form-container {
@@ -143,7 +143,7 @@ a {
 .join-container {
 	max-width: 500px;
 	margin: 80px auto;
-	color: #fff;
+	color: rgb(255, 255, 255);
 }
 
 .join-header {
